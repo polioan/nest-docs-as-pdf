@@ -2,6 +2,8 @@
 
 ## Download
 
+[https://github.com/polioan/nest-docs-as-pdf/releases/download/v.0.0.1/docs.pdf](https://github.com/polioan/nest-docs-as-pdf/releases/download/v.0.0.1/docs.pdf)
+
 ## Commands
 
 ```json5
