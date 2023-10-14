@@ -1,0 +1,35 @@
+{
+  "name": "nest-docs-as-pdf",
+  "version": "1.0.0",
+  "author": {
+    "name": "Ivan Polushin",
+    "url": "https://t.me/polioan"
+  },
+  "funding": "https://boosty.to/polioan",
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=15"
+  },
+  "engineStrict": true,
+  "scripts": {
+    "build": "tsc",
+    "run": "node dist/index",
+    "start": "npm run build && npm run run",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "@polioan/common": "^0.0.2",
+    "pdf-lib": "^1.17.1",
+    "puppeteer": "^21.3.8"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "prettier": "^3.0.3",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.2.2"
+  }
+}
