@@ -3,6 +3,7 @@ export const adCssSelectors = [
   '#carbonads_1',
   'app-banner-devtools',
   'app-banner-courses',
+  'app-banner-courses-auth',
 ]
 
 export const excessLayoutCssSelectors = [
