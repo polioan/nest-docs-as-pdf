@@ -4,6 +4,7 @@ export const adCssSelectors = [
   'app-banner-devtools',
   'app-banner-courses',
   'app-banner-courses-auth',
+  'app-banner-enterprise',
 ]
 
 export const excessLayoutCssSelectors = [
